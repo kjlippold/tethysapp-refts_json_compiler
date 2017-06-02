@@ -26,9 +26,15 @@ class ReferenceTimeseriesJsonCompiler(TethysAppBase):
         url_maps = (url_map(name='home',
                             url='refts-json-compiler',
                             controller='refts_json_compiler.controllers.home'),
-                    url_map(name='ajax_convert_files',
-                            url='refts-json-compiler/convert-files',
-                            controller='refts_json_compiler.controllers_ajax.ajax_convert_files')
+                    url_map(name='ajax_refts_convert_files',
+                            url='refts-json-compiler/refts-convert-files',
+                            controller='refts_json_compiler.controllers_ajax.ajax_refts_convert_files'),
+                    url_map(name='ajax_refts_download_files',
+                            url='refts-json-compiler/refts-download-files',
+                            controller='refts_json_compiler.controllers_ajax.ajax_refts_download_files'),
+                    url_map(name='ajax_refts_clear_files',
+                            url='refts-json-compiler/refts-clear-files',
+                            controller='refts_json_compiler.controllers_ajax.ajax_refts_clear_files'),
                     )
 
         return url_maps

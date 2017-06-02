@@ -9,14 +9,18 @@ function addFileToTable(fileName) {
     cellAction.innerHTML = "<input id='checkBox' type='checkbox'>";
 }
 
-var onClickUploadFiles;
-var $btnUploadFiles;
+var reftsOnClickUploadFiles;
+var $btnReftsUploadLocalFiles;
+var $btnReftsClearFiles;
+var $btnReftsDownloadFiles;
 
 
-$btnUploadFiles = $('#btn-upload-files');
+$btnReftsDownloadFiles = $('#btn-refts-download-files');
+$btnReftsClearFiles = $('#btn-refts-clear-files');
+$btnReftsUploadLocalFiles = $('#btn-refts-upload-local-files');
 
 
-onClickUploadFiles = function () {
+reftsOnClickUploadFiles = function () {
     var files = document.getElementById("input-upload-files").files;
     for (var i = 0; i < files.length; i++)
     {
@@ -27,7 +31,7 @@ onClickUploadFiles = function () {
         var data = new FormData();
         data.append('file', files[n]);
         $.ajax({
-            url: '/apps/refts-json-compiler/convert-files/',
+            url: '/apps/refts-json-compiler/refts-convert-files/',
             type: 'POST',
             data: data,
             dataType: 'json',
@@ -38,4 +42,28 @@ onClickUploadFiles = function () {
 };
 
 
-$btnUploadFiles.on('click', onClickUploadFiles);
+reftsOnClickDownloadFiles = function () {
+    $.ajax({
+        url: '/apps/refts-json-compiler/refts-download-files/',
+        type: 'POST',
+
+        processData: false,
+        contentType: false
+    });
+};
+
+
+reftsOnClickClearFiles = function () {
+    $.ajax({
+        url: '/apps/refts-json-compiler/refts-clear-files/',
+        type: 'POST',
+
+        processData: false,
+        contentType: false
+    });
+};
+
+
+$btnReftsUploadLocalFiles.on('click', reftsOnClickUploadFiles);
+$btnReftsDownloadFiles.on('click', reftsOnClickDownloadFiles);
+$btnReftsClearFiles.on('click', reftsOnClickClearFiles);
