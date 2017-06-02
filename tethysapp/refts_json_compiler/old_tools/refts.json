@@ -1,0 +1,300 @@
+{
+    "timeSeriesLayerResource": {
+        "fileVersion": 1,
+        "title": "Little Bear River near Wellsville, Utah, Battery voltage, Gage height, Oxygen, dissolved, Oxygen, dissolved percent of saturation, Phosphorus, total as P, Phosphorus, total as P, filtered, Solids, total Suspended, Specific conductance, unfiltered, Temperature, Turbidity, pH, unfiltered",
+        "symbol": "http://data.cuahsi.org/content/images/cuahsi_logo_small.png",
+        "REFTS": [
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Battery voltage",
+                "variableCode": "USU3",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Turbidity",
+                "variableCode": "USU4",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Turbidity",
+                "variableCode": "USU5",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Turbidity",
+                "variableCode": "USU6",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Turbidity",
+                "variableCode": "USU7",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Turbidity",
+                "variableCode": "USU8",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Turbidity",
+                "variableCode": "USU9",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Temperature",
+                "variableCode": "USU10",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Gage height",
+                "variableCode": "USU13",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Oxygen, dissolved",
+                "variableCode": "USU32",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Oxygen, dissolved percent of saturation",
+                "variableCode": "USU33",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Specific conductance, unfiltered",
+                "variableCode": "USU34",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "pH, unfiltered",
+                "variableCode": "USU35",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-31T00:00:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-05T14:30:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Temperature",
+                "variableCode": "USU36",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-20T14:05:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-07T13:00:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Phosphorus, total as P",
+                "variableCode": "USU39",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-20T14:05:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-07T13:00:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Phosphorus, total as P, filtered",
+                "variableCode": "USU40",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            },
+            {
+                "refType": "WOF",
+                "serviceType": "SOAP",
+                "endDate": "2007-12-20T14:05:00",
+                "url": "http://water.usu.edu/littlebearriver",
+                "beginDate": "2007-11-07T13:00:00",
+                "site": "Little Bear River near Wellsville, Utah",
+                "returnType": "WaterML 1.1",
+                "location": {
+                    "latitude": "41.643457",
+                    "longitude": "-111.917649"
+                },
+                "variable": "Solids, total Suspended",
+                "variableCode": "USU41",
+                "networkName": "LBR",
+                "SiteCode": "USU-LBR-Wellsville"
+            }
+        ],
+        "keyWords": "Timeseries, CUAHSI",
+        "abstract": "Battery voltage, Gage height, Oxygen, dissolved, Oxygen, dissolved percent of saturation, Phosphorus, total as P, Phosphorus, total as P, filtered, Solids, total Suspended, Specific conductance, unfiltered, Temperature, Turbidity, pH, unfiltered data collected from 2007-10-04 to 2007-12-31 created on 2009-06-12T10:48:35.453125-07:00 from the following site(s): Little Bear River near Wellsville, Utah. Data created by CUAHSI HydroClient: http://data.cuahsi.org/#."
+    }
+}

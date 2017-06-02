@@ -1,0 +1,123 @@
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.3);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 2.5% auto;
+    padding: 0px;
+    border: 0.5px solid #888;
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.2s;
+    animation-name: animatetop;
+    animation-duration: 0.2s
+}
+
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.modal-tab {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* OLD HTML */
+/*
+    <div id="modal-create-refts" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Add Timeseries Data</h4>
+                </div>
+                <div class="modal-tab">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openTab(event, 'local-file-tab')">Local Files</button>
+                        <button class="tablinks" onclick="openTab(event, 'manual-input-tab')">Manual Input</button>
+                    </div>
+                    <div id="local-file-tab" class="tabcontent">
+                        <p>Local File Upload</p>
+                    </div>
+                    <div id="manual-input-tab" class="tabcontent">
+                        <p>Manual Input</p>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h6>Reference Timeseries Files</h6>
+                    <table id="tblPets" border="1" style="border width:1 orange dashed;background color:#F0E68C;table-row width:2;">
+                        <tr>
+                            <th>Rownum</th>
+                            <th width="70">Animal</th>
+                            <th width="230">Name</th>
+                            <th width="70">Age</th>
+                            <td align="center">
+                            <input type="Button" onClick="addRow('tblPets')" value="Add Row">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" id="btn-download-files" class="btn btn-default btn-download" disabled>Download All Files</button>
+                </div>
+            </div>
+        </div>
+    </div>
+*/
